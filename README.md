@@ -24,7 +24,7 @@ and draw the outline into that new layer.
 # Installation
 
 * Save text-outline.py to your Gimp plugin directory.
-  * On Linux, this will be ~/.gimp-2.8/plug-ins/
+  * On Linux, this will be `~/.gimp-2.8/plug-ins/`
   * On Windows, apparently it might be something like `C:\Users\[username]\.gimp-2.8\plug-ins`
 * Restart GIMP
 
