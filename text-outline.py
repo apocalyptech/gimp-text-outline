@@ -34,7 +34,7 @@ def text_to_path(image, layer):
     """
 
     path = pdb.gimp_vectors_new_from_text_layer(image, layer)
-    pdb.gimp_image_add_vectors(image, path, 0)
+    pdb.gimp_image_insert_vectors(image, path, None, 0)
     return path
 
 def add_new_layer_beneath(image, layer):
